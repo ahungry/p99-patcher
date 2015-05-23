@@ -16,7 +16,7 @@ for f in $(find -type f); do
 		JSON=$(echo -e "$JSON"; echo -e "    {")
 		JSON=$(echo -e "$JSON"; echo -e "        'filename':'$(echo $f|sed -e 's/\.\///g')',")
 		JSON=$(echo -e "$JSON"; echo -e "        'checksum':'$(md5sum $f|awk '{print $1}')',")
-		JSON=$(echo -e "$JSON"; echo -e "        'download':'http://www.project1999.com/files/P99Files32.zip',")
+		JSON=$(echo -e "$JSON"; echo -e "        'download':'http://www.project1999.com/files/P99Files36.zip',")
 		JSON=$(echo -e "$JSON"; echo -e "        'filesize':'${FILESIZE}'")
 		JSON=$(echo -e "$JSON"; echo -e "    },")
 	fi
