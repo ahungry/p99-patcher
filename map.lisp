@@ -186,6 +186,8 @@ to boot)"
     (defvar *y-scale* .5)
     (defvar *x-offset* 400)
     (defvar *y-offset* 400)
+    (defvar *width* 800)
+    (defvar *height* 500)
     (defvar *player* (create coords []
                              zone ""
                              zone-name ""
@@ -255,8 +257,8 @@ to boot)"
             *ctx* (chain *can* (get-context "2d")))
       (setf (@ *ctx* stroke-style) "rgba(0,100,0,0,.3)"
             (@ *ctx* line-width) 0.5)
-      (setf (@ *can* width) 800
-            (@ *can* height) 600)
+      (setf (@ *can* width) *width*
+            (@ *can* height) *height*)
       (bind-keys)
       (draw-map))
 
@@ -295,6 +297,7 @@ to boot)"
     (defun draw-line (sx sy dx dy)
       "Draw a line given source/destination"
       (setf (@ *ctx* stroke-style) "#000000")
+      (setf (@ *ctx* line-width) (/ 1 *x-scale*))
       (chain *ctx* (begin-path))
       (chain *ctx* (move-to sx sy))
       (chain *ctx* (line-to dx dy))
@@ -316,6 +319,7 @@ to boot)"
             (chain *ctx* (translate sx sy))
             (chain *ctx* (begin-path))
             (chain *ctx* (move-to 0 0))
+            (setf (@ *ctx* line-width) (/ 1 *x-scale*))
             (with-slots (direction) *player*
               (cond ((eq "North" direction) (chain *ctx* (line-to 0 (- sy dirlen))))
                     ((eq "South" direction) (chain *ctx* (line-to 0 (+ sy dirlen))))
@@ -344,7 +348,7 @@ to boot)"
 
     (defun down-keys (k)
       "Swap based on keybind pressed"
-      (when (chain (list 38 87 75 40 83 74 37 65 72 39 68 76) (index-of k))
+      (when (> (chain (list 38 87 75 40 83 74 37 65 72 39 68 76) (index-of k)) -1)
         (auto-follow-off))
       (cond
         ((eq k 38) (incf *y-offset* (/ 50 *y-scale*)))    ;; up
@@ -399,7 +403,7 @@ to boot)"
           (auto-follow-on)))
 
     ;; Lets assume player at 0,0.  Using an 800x600 map at .25 scale,
-    ;; this should place the view at an offset of 1600 1200.
+    ;; this should place the view at an offset of 1600 1200 (half map / scale)
     ;;
     ;; The formula should be xo = w/2/scale + x/scale
     ;;
@@ -408,16 +412,16 @@ to boot)"
     ;; (divide by it)
     (defun center-on-player ()
       "Center the map on the player character"
-      (let ((mw 800)
-            (mh 600))
-      (setf *x-offset* (+ (/ mw 2 *x-scale*) (* (aref *coords* 0 2) *x-scale*))
-            *y-offset* (+ (/ mh 2 *y-scale*) (* (aref *coords* 0 1) *y-scale*)))))
+      (let ((mw *width*)
+            (mh *height*))
+      (setf *x-offset* (+ (/ mw 2 *x-scale*) (* (aref *coords* 0 2) *x-scale* 2))
+            *y-offset* (+ (/ mh 2 *y-scale*) (* (aref *coords* 0 1) *y-scale* 2)))))
 
     (chain ($ document)
            (ready
             (lambda ()
-              (set-timeout #'get-player-map-coords 1000)
-              (set-timeout #'map-sync 1000)
+              (set-timeout #'get-player-map-coords 100)
+              (set-timeout #'map-sync 100)
               (auto-follow-on)
               (set-interval #'coord-override 100))))
     ))
