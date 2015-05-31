@@ -177,6 +177,8 @@ to boot)"
 (defun map-js ()
   "Generate the relevant map js"
   (ps
+    (defvar *centering-on-player-p* nil)
+    (defvar *autofollow* nil)
     (defvar *can* nil)
     (defvar *ctx* nil)
     (defvar *coords* [])
@@ -342,23 +344,26 @@ to boot)"
 
     (defun down-keys (k)
       "Swap based on keybind pressed"
+      (when (chain (list 38 87 75 40 83 74 37 65 72 39 68 76) (index-of k))
+        (auto-follow-off))
       (cond
-        ((eq k 38) (incf *y-offset* (/ 50 *y-scale*))) ;; up
-        ((eq k 87) (incf *y-offset* (/ 50 *y-scale*))) ;; w
-        ((eq k 75) (incf *y-offset* (/ 50 *y-scale*))) ;; k
-        ((eq k 40) (decf *y-offset* (/ 50 *y-scale*))) ;; down
-        ((eq k 83) (decf *y-offset* (/ 50 *y-scale*))) ;; s
-        ((eq k 74) (decf *y-offset* (/ 50 *y-scale*))) ;; j
-        ((eq k 37) (incf *x-offset* (/ 50 *x-scale*))) ;; left
-        ((eq k 65) (incf *x-offset* (/ 50 *x-scale*))) ;; a
-        ((eq k 72) (incf *x-offset* (/ 50 *x-scale*))) ;; h
-        ((eq k 39) (decf *x-offset* (/ 50 *x-scale*))) ;; right
-        ((eq k 68) (decf *x-offset* (/ 50 *x-scale*))) ;; d
-        ((eq k 76) (decf *x-offset* (/ 50 *x-scale*))) ;; l
-        ((eq k 67) (center-on-player))                 ;; c
-        ((eq k 73) (progn (setf *x-scale* (* *x-scale* 2)        ;; i
+        ((eq k 38) (incf *y-offset* (/ 50 *y-scale*)))    ;; up
+        ((eq k 87) (incf *y-offset* (/ 50 *y-scale*)))    ;; w
+        ((eq k 75) (incf *y-offset* (/ 50 *y-scale*)))    ;; k
+        ((eq k 40) (decf *y-offset* (/ 50 *y-scale*)))    ;; down
+        ((eq k 83) (decf *y-offset* (/ 50 *y-scale*)))    ;; s
+        ((eq k 74) (decf *y-offset* (/ 50 *y-scale*)))    ;; j
+        ((eq k 37) (incf *x-offset* (/ 50 *x-scale*)))    ;; left
+        ((eq k 65) (incf *x-offset* (/ 50 *x-scale*)))    ;; a
+        ((eq k 72) (incf *x-offset* (/ 50 *x-scale*)))    ;; h
+        ((eq k 39) (decf *x-offset* (/ 50 *x-scale*)))    ;; right
+        ((eq k 68) (decf *x-offset* (/ 50 *x-scale*)))    ;; d
+        ((eq k 76) (decf *x-offset* (/ 50 *x-scale*)))    ;; l
+        ((eq k 67) (center-on-player))                    ;; c
+        ((eq k 70) (center-on-player-nonstop))            ;; f
+        ((eq k 73) (progn (setf *x-scale* (* *x-scale* 2) ;; i
                                 *y-scale* (* *y-scale* 2))))
-        ((eq k 79) (progn (setf *x-scale* (/ *x-scale* 2)        ;; o
+        ((eq k 79) (progn (setf *x-scale* (/ *x-scale* 2) ;; o
                                 *y-scale* (/ *y-scale* 2))))
         ))
 
@@ -374,16 +379,46 @@ to boot)"
           (setf (aref *coords* 0 1) (* -1 x)
                 (aref *coords* 0 2) (* -1 y)))))
 
+    (defun auto-follow-on ()
+      "Handle the on event for auto-follow"
+      (chain ($ "#af-status") (html "(on)"))
+      (setf *autofollow* (set-interval #'center-on-player 1000))
+      (setf *centering-on-player-p* t))
+
+    (defun auto-follow-off ()
+      "Handle the on event for auto-follow"
+      (chain ($ "#af-status") (html "(off)"))
+      (clear-interval *autofollow*)
+      (setf *autofollow* nil)
+      (setf *centering-on-player-p* nil))
+
+    (defun center-on-player-nonstop ()
+      "Keep the map on the player indefinitely"
+      (if *centering-on-player-p*
+          (auto-follow-off)
+          (auto-follow-on)))
+
+    ;; Lets assume player at 0,0.  Using an 800x600 map at .25 scale,
+    ;; this should place the view at an offset of 1600 1200.
+    ;;
+    ;; The formula should be xo = w/2/scale + x/scale
+    ;;
+    ;; In old formula, we end up with a 0 value ends up being located
+    ;; at no offset whatsoever (incorrect here) - then use the scale
+    ;; (divide by it)
     (defun center-on-player ()
       "Center the map on the player character"
-      (setf *x-offset* (* (aref *coords* 0 2) *x-scale* 5)
-            *y-offset* (* (aref *coords* 0 1) *y-scale* 3)))
+      (let ((mw 800)
+            (mh 600))
+      (setf *x-offset* (+ (/ mw 2 *x-scale*) (* (aref *coords* 0 2) *x-scale*))
+            *y-offset* (+ (/ mh 2 *y-scale*) (* (aref *coords* 0 1) *y-scale*)))))
 
     (chain ($ document)
            (ready
             (lambda ()
               (set-timeout #'get-player-map-coords 1000)
               (set-timeout #'map-sync 1000)
+              (auto-follow-on)
               (set-interval #'coord-override 100))))
     ))
 
@@ -407,9 +442,11 @@ to boot)"
              "Zone File: " (:input :id "zone-file" :val "")
              (:div :id "map-container"
                    (:div :id "map-instructions"
-                         (:p "c - center map on character (sort of works)")
+                         (:p "c - center map on character")
+                         (:p "f - toggle auto-following of the centering on player"
+                             (:span :id "af-status" "(on)"))
                          (:p "i - zoom in")
                          (:p "o - zoom out")
-                         (:p "wasd/hjkl/arrows - move map up/down/left/right"))
+                         (:p "wasd/hjkl/arrows - move map up/down/left/right (will turn off auto-follow)"))
                    (:br)
                    (:canvas :id "map"))))))))
