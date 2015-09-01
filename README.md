@@ -23,11 +23,15 @@ mapper to work.
 
 The main page can be viewed at:
 
-http://localhost:4444 (the launcher should open this for you).
+http://localhost:4444
+
+(the launcher should open this for you).
 
 To use the map portion, visit:
 
-http://localhost:4444/mapper/ (trailing slash required!)
+http://localhost:4444/mapper/
+
+(trailing slash required!)
 
 ### In game steps to take
 
