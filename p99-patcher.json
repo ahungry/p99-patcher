@@ -1,458 +1,464 @@
 [
     {
+        "filename":"eqhost.txt",
+        "checksum":"44156c6399ad23b6ec69576792ccc5cb",
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
+    },
+    {
+        "filename":"dsetup.dll",
+        "checksum":"6bb4e4f6d75175e3f866d2bc1d6343ab",
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
+    },
+    {
         "filename":"dbstr_us.txt",
         "checksum":"18080ec4f69ff26452c40db912e2cafe",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"ActorEmittersNew.edd",
         "checksum":"83b380c31132e00c894f9598c59737ce",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/window_pieces02.tga",
         "checksum":"c80d8fe341b28a7ede262a375320e567",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/window_pieces01.tga",
         "checksum":"6c7dbfc07394cc06777fbdfa5e7c43d9",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/spells07.tga",
         "checksum":"bdadaccad9d57ee0810e5d3496f494ab",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/spells06.tga",
         "checksum":"5e912c0c51a04785f92240498dffb8f4",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/spells05.tga",
         "checksum":"fd720198ef1394d54f91b447f212a21e",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/spells04.tga",
         "checksum":"056c61d11c0137ea18b2060b80264eec",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/spells03.tga",
         "checksum":"7354ef4075c0cdf13f53e031cc9e7a2a",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/spells02.tga",
         "checksum":"7a0d14301327acb7ca26720357999626",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/spells01.tga",
         "checksum":"ac6457c7606d6eaafe0493014444ec20",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/gemicons03.tga",
         "checksum":"ab277cfe96d489e2bebc051d9468849c",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/gemicons02.tga",
         "checksum":"53774547d34e28f406ab4a35d2e81b4d",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/gemicons01.tga",
         "checksum":"8edcc27811a4e0616a8f73975e572564",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQUI_HotButtonWnd.xml",
         "checksum":"1b4cc4ce1c30636645457d95eabd9bc0",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQUI_GemsGameWnd.xml",
         "checksum":"1aa447296dc19340570ccab111a486c3",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQUI_CastSpellWnd.xml",
         "checksum":"2b4e9ceccddb462619b5205c108fc8d9",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQUI_BankWnd.xml",
         "checksum":"bb298dd520312886e3d8859eb8c17448",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQUI_Animations.xml",
         "checksum":"9d5e4b9280805bd52bdc8a8ef0ca2298",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQLS_background_06.tga",
         "checksum":"90e8057fa1b3d94713396d4a82740b2c",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQLS_background_05.tga",
         "checksum":"455cbe00bcff5ee6db293c19a0009123",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQLS_background_04.tga",
         "checksum":"4fd4ecc05a14ff066ae1c578a1e2dc1a",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQLS_background_03.tga",
         "checksum":"3bfd7e62958a514c6bc52554d5d3bc49",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQLS_background_02.tga",
         "checksum":"bbce8f0f2073a968ef946a2a49ecb8fa",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/EQLS_background_01.tga",
         "checksum":"ff7edae26dac253ce5399aad8610c979",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"uifiles/default/classic_pieces01.tga",
         "checksum":"c41b5cb0ef272cf7ad536cda30879c8c",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelye.png",
         "checksum":"c442a7002ce9bbf570fbaaa77e68bd5a",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelyd.png",
         "checksum":"51c9a54cf4a9b81abd0a46af6940a0e9",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelyc.png",
         "checksum":"30931b3464f1d4d628a9d0725691ef97",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelyb.png",
         "checksum":"4bd9135093c8c4f7fd1ff6a0f1c284f0",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelva.png",
         "checksum":"0676574ca31b71b45be6f5f401381909",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelub.png",
         "checksum":"2c2f43ffbac5b5d644e1488381937a58",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelua.png",
         "checksum":"5310da7a18bf4698351623738762df63",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelrb.png",
         "checksum":"790e0ca261d5602c0e60804fce9e2276",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelra.png",
         "checksum":"2a5d472b80148da1d70d16a5e939a99d",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelqa.png",
         "checksum":"03d308a6219f405965b0bc818f5bd904",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelpa.png",
         "checksum":"3c5ce683147d87e39207a451d6320170",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/speloa.png",
         "checksum":"982a8b469ab61f0aab791da36a46b4bd",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelna.png",
         "checksum":"91c14a3f41e05c13400652153d715bcd",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelma.png",
         "checksum":"c9bbce8a9610a69a14c70aad6593b789",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spella.png",
         "checksum":"a57eba246ed979a6acbebff15d1bc577",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelkb.png",
         "checksum":"71e63b0b11a072a40ca63486213ac1e4",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelka.png",
         "checksum":"c41139407407d508b07699af2dff0bfe",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/speljb.png",
         "checksum":"f550367e76f9b3286806b9658fbcfa03",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelja.png",
         "checksum":"1d2f489a4d2828db379991a0a8580b1c",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelea.png",
         "checksum":"490af6290fcd353d9d47966a8132bd93",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/speldd.tga",
         "checksum":"597469e49e96322801b3b3af971c90d7",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/speldc.png",
         "checksum":"c2db0be6bf3a74a2a692012d76333a6f",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelcy.png",
         "checksum":"d26d7162b9c9db57880af97f4621bab6",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelcm.png",
         "checksum":"592837e3ebc94a6ed6bd3e7de325a536",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelcf.png",
         "checksum":"4c493cc097ccae76472688e3cbda1bc4",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelce.png",
         "checksum":"cb8b743b81ae6c66aca4cf9e53a884cc",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelcd.tga",
         "checksum":"b7d0b8b476a3a7cb9d9b677d849f9869",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelcc.png",
         "checksum":"281ac85e6f93898cd633914303e5aa78",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelcb.png",
         "checksum":"215c4c2b6e2bb9291ce33a5abdbcb0bd",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelbb.tga",
         "checksum":"35d2896539655b13dcfba9d80c8e3a42",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelba.png",
         "checksum":"704c9f383ef7e1ece269cf65574991dc",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelan.png",
         "checksum":"83edb63aa0064812095e3cb26f0aa68b",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelab.tga",
         "checksum":"78ff3e4af747cd91bf9499bbb1ed2d04",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/spelaa.png",
         "checksum":"514729100f1d94fe0346493af7702ac9",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/snow.png",
         "checksum":"fe5c9376e6325218ee98fd9e441a4851",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/gob.png",
         "checksum":"36288437815c0358db195ff03070c37f",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/genb20.bmp",
         "checksum":"0bd22ec9cc3fd9284196e2001b6f779c",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/genab1.png",
         "checksum":"b1823179b460f62e02d2327bb7320a40",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/gena30.bmp",
         "checksum":"c659a14de211734289b9dd968e4dfbb2",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/gena20.bmp",
         "checksum":"7237c62c28fb57ac174281b3545756a2",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/flare_whsp50a.png",
         "checksum":"44dec14c696001011aefe8ffbc111d32",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"SpellEffects/flare_blsp50a.png",
         "checksum":"3a2b4550a82f98fd8e2bb8d9895dd0c7",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"Resources/loadscreen.jpg",
         "checksum":"ce497f309f557bbbffe2f9ed2ebea736",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"Resources/GlobalLoad.txt",
         "checksum":"e618e1b92a93d1d613f508bb3c463b31",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"spellsnew.eff",
         "checksum":"5e79ff110b43ecddb0eba611d09ea85c",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"spellsnew.edd",
         "checksum":"7a174039c5349341ecde5b898faf50b6",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"spells_us.txt",
-        "checksum":"d77992140c9ddd22bdeb0d64e9087619",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "checksum":"aa78aced8a8aafdd70bedc9153d33c94",
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
+    },
+    {
+        "filename":"license.txt",
+        "checksum":"02d94a7147b3084a32da3c5100c7b29b",
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     },
     {
         "filename":"Launch Titanium.bat",
         "checksum":"b342efe24801a4fc75115af96da5c2f4",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
-    },
-    {
-        "filename":"eqhost.txt",
-        "checksum":"44156c6399ad23b6ec69576792ccc5cb",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
-    },
-    {
-        "filename":"dsetup.dll",
-        "checksum":"60800a9ab5003f8560c0a72efe38f004",
-        "download":"http://www.project1999.com/files/P99Files36.zip",
-        "filesize":"4857932"
+        "download":"http://www.project1999.com/files/P99Files39.zip",
+        "filesize":"4920260"
     }
 ]
