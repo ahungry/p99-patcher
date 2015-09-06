@@ -19,11 +19,15 @@ http://ahungry.com/p99-patcher-min.7z
 
 Then after downloading it, just extract via 7-zip (make sure your EQ install
 path has a Logs/eqlog_YourName_project1999.txt and a maps/ directory for the
-mapper to work.
+mapper to work).
+
+Next up, double click the .bat file to start it up - this will launch
+the program and open your web browser to the default page (which
+handles patching).
 
 The main page can be viewed at:
 
-http://localhost:4444
+http://localhost:4444/
 
 (the launcher should open this for you).
 
