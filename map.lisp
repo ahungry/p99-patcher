@@ -439,6 +439,7 @@ to boot)"
                 "$(document).ready(function() { getActiveMapCoords('" (str map-name) "'); });")
        )
       (:body
+       (:a :href "/" (:h1 "&laquo; Back to patcher"))
        (:div :id "map-stuff"
              "Y: " (:input :id "py" :val "")
              "X: " (:input :id "px" :val "")

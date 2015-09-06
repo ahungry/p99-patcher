@@ -26,7 +26,8 @@
     (("body")
      (:background "#333"
                   :color "#fff"
-                  :font-family "monospace"))
+                  :font-family "monospace"
+                  :padding-bottom "100px"))
     (("a")
      (:color "lime"
              :font-weight "bold"
@@ -132,7 +133,7 @@
      (:color "#999"
              :font-size "10px"))
     (("#path-info")
-     (:background "#333"
+     (:background "#000"
                   :color "#fff"
                   :font-size "9px"
                   :left "0px"

@@ -183,6 +183,8 @@ install directory: <div id='path'>~a</div> (edit settings.lisp and restart launc
              (:a :href "mailto:m@ahungry.com" "m@ahungry.com")
              "/ Patcher provided by: "
              (:a :href "http://ahungry.com" "http://ahungry.com"))
+       (:a :href "/mapper/?map-name=felwithea"
+           (:h1 "Click here for the Mapper (map app) &raquo;"))
        (:div :id "main"
              (:div :id "message" "Status:")
              (:img :src "/img/loadscreen.jpg" :class "loadscreen")
@@ -195,7 +197,6 @@ install directory: <div id='path'>~a</div> (edit settings.lisp and restart launc
                        :id "quick-scan" "Scan/Patch Game")
                    (:a :href "/play-eq/" :class "async"
                        :id "play-eq" "Play EverQuest!")))
-       (:a :href "/mapper/?map-name=felwithea" :target "_blank" (:h1 "Mapper"))
        (:h3 "Include the following Optional mods and tools:")
        (:input :id "auction-logger" :type "checkbox" :name "auction-logger")
        (:label :for "auction-logger" "Ahungry Realtime Auction Logger"

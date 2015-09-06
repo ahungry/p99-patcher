@@ -398,6 +398,7 @@
    "The Commonlands" "commonlands"
    "The Ocean of Tears" "oceanoftears"
    "Kithicor Forest" "kithforest"
+   "Kithicor Woods" "kithicor"
    "Befallen" "befallenb"
    "HighKeep" "highpasskeep"
    "The Innothule Swamp" "innothuleb"
